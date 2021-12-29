@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Criar uma API\r - [X] Iniciar o projeto `npm init -y`\r - [X] Instalar as dependências `npm i express nodemon cors axios`\r - [X] Criar uma rota para acessar a API\r - [X] Servir a  API\r - [X] Habilitar CORS\r - [X] Habilitar o nodemon para reiniciar o server",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
